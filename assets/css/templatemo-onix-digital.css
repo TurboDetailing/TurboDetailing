@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fef65b;
+  background-color: #c6bebe;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -147,12 +147,12 @@ body {
 
 ::selection {
   background: #03a4ed;
-  color: #fef65b;
+  color:#c6bebe;
 }
 
 ::-moz-selection {
   background: #03a4ed;
-  color: #fef65b;
+  color: #c6bebe;
 }
 
 @media (max-width: 991px) {
@@ -212,7 +212,7 @@ body {
   background-color: #03a4ed;
   font-size: 15px;
   font-weight: 400;
-  color: #fef65b;
+  color: #c6bebe;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -242,7 +242,7 @@ body {
   background-color: #fe0000;
   font-size: 15px;
   font-weight: 400;
-  color: #fef65b;
+  color: #c6bebe;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -255,7 +255,7 @@ body {
   background-color: #fe0000;
   font-size: 15px;
   font-weight: 400;
-  color: #fef65b;
+  color: #c6bebe;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -269,7 +269,7 @@ body {
 
 .main-white-button a {
   display: inline-block;
-  background-color: #fef65b;
+  background-color: #c6bebe;
   font-size: 15px;
   font-weight: 400;
   color: #fe0000;
@@ -329,7 +329,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #fef65b;
+  color: #c6bebe;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -479,7 +479,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fef65b;
+  background: #c6bebe;
   color: #fe0000!important;
   padding-left: 25px;
 }
@@ -699,7 +699,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fef65b;
+    background: #c6bebe;
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -1435,7 +1435,7 @@ Subscribe
 
 .subscribe .inner-content:after {
   content: '';
-  background-image: url(../images/subscribe-dec.png);
+  background-image: url(../images/subscribe-dec.svg);
   position: absolute;
   width: 195px;
   height: 138px;
@@ -1720,11 +1720,12 @@ contact
 }
 
 .contact-us .info span i {
-  float: left;
+  
   width: 46px;
   height: 46px;
   display: inline-block;
   text-align: center;
+  align-content: center;
   line-height: 46px;
   background: #fe0000;
   background: linear-gradient(105deg, #fe0000 0%, #fe0000 100%);
@@ -1741,6 +1742,7 @@ contact
   font-weight: 400;
   line-height: 25px;
   text-transform: none;
+  text-align: center;
 }
 
 form#contact {
@@ -2043,4 +2045,25 @@ responsive
   .contact-us .info span {
     margin-bottom: 20px;
   }
+}
+/*========================= Personalizaciones Jaime*/
+#ServiciosDescripcion{
+  color:#03a4ed;
+  text-align:center;
+}
+
+#PlanDescripcion{
+  color:#03a4ed;
+  text-align:center;
+}
+
+#PlanPrecio{
+  color:#fe0000
+}
+#Cotizar{
+  text-align: center;
+}
+
+#infoTitulo{
+  text-align: center;
 }
